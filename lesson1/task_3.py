@@ -1,7 +1,5 @@
-print('Введите день:')
-date = int(input())
-print('Введите месяц:')
-month = input()
+date = int(input('Введите день: '))
+month = input('Введите месяц: ')
 month = month.lower()
 
 if (month == "март" and date >= 21) or (month == "апрель" and date <= 20):
